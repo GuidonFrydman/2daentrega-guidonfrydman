@@ -1,0 +1,134 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family:  "Roboto", sans-serif;
+}
+
+/* Header*/
+
+.encabezado {
+   
+   padding: 10px 10px;
+   background-image: url(assets/world.jpg);
+   background-size: 100% auto;
+   background-position:center;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.encabezado h1{
+   background-color:transparent;
+}
+
+.encabezado img{
+   background: transparent;
+}
+
+.navbar {
+   position: absolute ;
+   bottom: 10px;
+   right: 10px;
+   background-color:transparent;
+}
+
+header ul.navbar li {
+   display: inline;
+   background-color:transparent;
+}
+
+header ul.navbar li a{
+   text-decoration: none;
+   background-color:transparent;
+   color: black;
+   padding: 5px; 
+}
+/*main de index */
+
+.info div img{
+width: 5%;
+}
+
+/* main de nosotros*/
+
+.nosotros{
+   
+   text-align: center;
+   
+}
+.nosotros .valores  {
+   
+   margin: 20px;
+}
+
+/* main de servicios*/
+.servicios p{
+   text-align: left;
+ 
+}
+.servicios div img{
+   width: 300px;
+   height: auto;
+}
+
+
+/* main de promociones*/
+
+.promociones img{
+   width: 100px;
+   height: 100px;
+  
+}
+
+/* main de contacto*/
+
+.contacto div{
+   display: block;
+}
+
+/*aside de index*/
+
+ .formulario {
+   text-align: center;
+ }
+/* div separador de index*/
+
+.separador {
+   text-align: center;
+
+   padding: 10px;
+}
+
+
+/*footer*/
+
+.pie{
+   background-color: #99BC85;
+}
+.pie img{
+   background-color: transparent;
+   display: block;
+   width: 100px;
+   
+}
+.pie p{
+   text-align: center;
+   background-color: transparent;
+}
+.pie h3{
+   background-color: transparent;
+   text-align: right;
+   margin-top: 0px;
+}
+.redes {
+   text-align: right;
+
+   background-color: transparent;
+}
+.redes li{
+   background-color: transparent;
+}
+.redes li a{
+   
+   text-decoration: none;
+   background-color: transparent;
+}
