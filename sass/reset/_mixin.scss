@@ -1,0 +1,9 @@
+@mixin dimensions ($alto, $ancho){
+    height: $alto;
+    width: $ancho;
+}
+
+@mixin espaciado ($pad, $mar){
+    padding: $pad;
+    margin: $mar;
+}

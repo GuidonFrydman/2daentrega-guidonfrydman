@@ -1,0 +1,75 @@
+/*main de index */
+main {
+    padding-top: 10px;
+
+    .info div img {
+        width: 90%;
+    }
+   
+}
+
+
+/* main de nosotros*/
+
+.nosotros {
+
+    margin: 10px;
+    display: wrap;
+
+    &.valores {
+
+        margin: 20px;
+        list-style: circle;
+    }
+
+}
+
+
+/* main de servicios*/
+
+.servicios {
+    padding: 20px 0px 20px 0px;
+}
+
+
+/* main de promociones*/
+.promociones{
+    max-width: 90%;
+    img {
+        @include dimensions (35%, auto);
+        object-fit: cover;
+}
+}
+
+
+    
+
+
+
+/*main de contacto*/
+.contacto{
+    max-width: 90%;
+}
+
+/*carousel*/
+.g-active {
+    @include dimensions (480px, 100%);
+
+    h5 {
+        text-align: center;
+        color: map-get($colores, principal);
+
+
+    }
+
+    p {
+        text-align: center;
+        color: map-get($colores, principal);
+    }
+
+    .g-foto {
+        @include dimensions (auto, auto);
+        max-width: 100%;
+        object-fit: contain;
+    }
+}

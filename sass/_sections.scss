@@ -1,0 +1,65 @@
+   /* section de contacto*/
+
+   .formulario-container {
+       border: 1px solid #317da3;
+       border-radius: 1px;
+       background-color: #317da3;
+
+   }
+
+   /* aside de index*/
+
+   aside {
+       background-color: #176186;
+       color: white;
+       border: 1px solid #176186;
+       border-radius: 100px;
+       height: 40%;
+       padding: 20px 20px;
+       text-align: center;
+
+       img {
+           width: 200px;
+           
+         
+       }
+       img:hover{
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+       .formulario {
+        text-align: center;
+    }
+   }
+
+   /* div separador de index*/
+
+   .separador {
+       text-align: center;
+
+       padding: 10px;
+   }
+
+   /*section de index*/
+
+   .container-cards {
+       max-height: auto;
+       max-width: 90%;
+
+   }
+
+   .card {
+       height: 450px;
+       margin: 10px;
+     
+       &__image {
+        height: 200px;      
+ 
+    }
+   }
+
+   .g-button {
+       position: absolute;
+       bottom: 10px;
+       right: 10px;
+   }

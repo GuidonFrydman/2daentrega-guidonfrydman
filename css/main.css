@@ -1,0 +1,192 @@
+/*reset*/
+/*textos*/
+/* colores */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.encabezado {
+  padding: 10px 10px;
+  background-image: url(../assets/world.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.encabezado h1 {
+  background-color: transparent;
+  text-align: right;
+}
+.encabezado img {
+  background: transparent;
+}
+.encabezado .navbar {
+  position: absolute;
+  right: 40px;
+  background-color: transparent;
+}
+
+/*main de index */
+main {
+  padding-top: 10px;
+}
+main .info div img {
+  width: 90%;
+}
+
+/* main de nosotros*/
+.nosotros {
+  margin: 10px;
+  display: wrap;
+}
+.nosotros.valores {
+  margin: 20px;
+  list-style: circle;
+}
+
+/* main de servicios*/
+.servicios {
+  padding: 20px 0px 20px 0px;
+}
+
+/* main de promociones*/
+.promociones {
+  max-width: 90%;
+}
+.promociones img {
+  height: 35%;
+  width: auto;
+  object-fit: cover;
+}
+
+/*main de contacto*/
+.contacto {
+  max-width: 90%;
+}
+
+/*carousel*/
+.g-active {
+  height: 480px;
+  width: 100%;
+}
+.g-active h5 {
+  text-align: center;
+  color: #000000;
+}
+.g-active p {
+  text-align: center;
+  color: #000000;
+}
+.g-active .g-foto {
+  height: auto;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+/* section de contacto*/
+.formulario-container {
+  border: 1px solid #317da3;
+  border-radius: 1px;
+  background-color: #317da3;
+}
+
+/* aside de index*/
+aside {
+  background-color: #176186;
+  color: white;
+  border: 1px solid #176186;
+  border-radius: 100px;
+  height: 40%;
+  padding: 20px 20px;
+  text-align: center;
+}
+aside img {
+  width: 200px;
+}
+aside img:hover {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+aside .formulario {
+  text-align: center;
+}
+
+/* div separador de index*/
+.separador {
+  text-align: center;
+  padding: 10px;
+}
+
+/*section de index*/
+.container-cards {
+  max-height: auto;
+  max-width: 90%;
+}
+
+.card {
+  height: 450px;
+  margin: 10px;
+}
+.card__image {
+  height: 200px;
+}
+
+.g-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+/*footer*/
+.pie {
+  background-color: #aebcda;
+  width: 100%;
+  margin-top: 20px;
+  display: inline-block;
+}
+.pie__logo {
+  height: auto;
+  width: auto;
+  background-color: transparent;
+  max-width: 130px;
+  padding-left: 40px;
+}
+.pie__logo img {
+  max-width: 100%;
+  height: auto;
+}
+.pie p {
+  text-align: center;
+  background-color: transparent;
+  padding-bottom: 0;
+  margin: 0;
+}
+.pie h3 {
+  background-color: transparent;
+  text-align: right;
+  margin-top: 0px;
+  font-size: 20px;
+}
+.pie .redes {
+  text-align: right;
+  background-color: transparent;
+  size: 40px;
+}
+.pie .redes li {
+  list-style: none;
+  background-color: transparent;
+  text-decoration: none;
+  display: inline-flex;
+}
+.pie .redes li a {
+  text-decoration: none;
+  background-color: transparent;
+}
+.pie .redes li a img {
+  width: 20px;
+}
+
+/*# sourceMappingURL=main.css.map */
