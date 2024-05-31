@@ -45,6 +45,9 @@
    .container-cards {
        max-height: auto;
        max-width: 90%;
+       display: flex;
+       justify-content: space-around;
+       
 
    }
 
